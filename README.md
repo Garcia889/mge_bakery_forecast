@@ -1,7 +1,6 @@
 # Proyecto Producto de Datos
 # SmartBakery
 
-([imgs/SmartBakery.jpg](https://github.com/YunPerez/MGE_Bakery_Forecast/blob/main/imgs/SmartBakery.jpg))
 ![](https://github.com/YunPerez/MGE_Bakery_Forecast/blob/main/imgs/SmartBakery.jpg)
          
 # (MCD ITAM Primavera 2024)
