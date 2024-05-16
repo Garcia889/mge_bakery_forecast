@@ -5,8 +5,6 @@
          
 # (MCD ITAM Primavera 2024)
 
-(imgs/logo.png)
-
 ## Autores 📚
 
 | Nombre                     |  CU    | Correo Electrónico | Usuario Github |
@@ -19,7 +17,7 @@
 
 
 ## Contexto  🧠
-
+![](https://github.com/YunPerez/MGE_Bakery_Forecast/blob/main/imgs/logo.png)
  
 En el competitivo mercado de la panadería, la gestión eficiente del inventario es crucial para maximizar las ganancias y garantizar la satisfacción del cliente. Muchas panaderías enfrentan desafíos significativos, como la predicción inexacta de la demanda, el desperdicio de productos y la falta de disponibilidad de artículos populares.
  
