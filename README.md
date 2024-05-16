@@ -1,7 +1,9 @@
-# Proyecto bakery forecast 💰
+# Proyecto Producto de Datos
+# SmartBakery
 
+![](https://github.com/YunPerez/MGE_Bakery_Forecast/blob/main/imgs/SmartBakery.jpg)
+         
 # (MCD ITAM Primavera 2024)
-
 
 ## Autores 📚
 
@@ -14,37 +16,35 @@
 
 
 
-# Contexto  🧠
-* Repositorio del proyecto de ...
+## Contexto  🧠
+![](https://github.com/YunPerez/MGE_Bakery_Forecast/blob/main/imgs/logo.png)
+ 
+En el competitivo mercado de la panadería, la gestión eficiente del inventario es crucial para maximizar las ganancias y garantizar la satisfacción del cliente. Muchas panaderías enfrentan desafíos significativos, como la predicción inexacta de la demanda, el desperdicio de productos y la falta de disponibilidad de artículos populares.
+ 
+**SmartBakery** nace como una solución innovadora para abordar estos problemas. Al integrar técnicas avanzadas de ciencia de datos, analítica de Gran Escala y Computo Distribuido, SmartBakery proporciona a las panaderías una herramienta poderosa para optimizar su inventario. Esta optimización se traduce en una reducción de desperdicios, una mejor satisfacción del cliente al asegurar la disponibilidad de productos y, en última instancia, un aumento en las ganancias.
+ 
+SmartBakery no solo predice la demanda de productos, sino que también ofrece recomendaciones precisas sobre cuándo y cuánto reabastecer, considerando factores como datos históricos de ventas, patrones estacionales, eventos locales y condiciones meteorológicas. Con esta herramienta, las panaderías pueden tomar decisiones informadas y estratégicas, mejorando su eficiencia operativa y fortaleciendo su posición en el mercado.
 
-* Blabla ...
+## Objetivo 🎯
+El objetivo de SmartBakery es construir un producto de datos que optimice el inventario de una panadería, mejorando así las ganancias y la satisfacción del cliente. Este producto sigue la metodología del working backwards para presentar una oferta de valor clara y utiliza los componentes del CRISP-DM y el Well Architected Machine Learning Lens.
 
-# Objetivo del proyecto  🎯
-* Utilizar tecnologías de gran escala...
+## Contenido
 
-## Habilidades a evaluar 🧑‍💻
-* Bla...
+- [Working Backwards en PDF](#working-backwards-en-pdf) El documento de working backwards detalla el proceso y la oferta de valor de SmartBakery. [Descargar PDF](link-al-pdf)
+
+- [Press Release](#press-release) Aquí puedes leer el comunicado de prensa que describe la propuesta de valor y los beneficios de SmartBakery. [Leer Press Release](link-al-documento)
+
+- [Cinco preguntas alrededor del cliente](#cinco-preguntas-alrededor-del-cliente) Respondemos a las cinco preguntas críticas para entender las necesidades y expectativas de nuestros clientes. [Leer Documento](link-al-documento)
+- [Boceto de la solución](#boceto-de-la-solución) El boceto muestra la solución final de SmartBakery, detallando las iteraciones realizadas para llegar al producto final. [Ver Boceto](link-al-boceto)
+
+- [FAQ](#faq) Respondemos las preguntas más frecuentes
+
+- [Diagrama de la solución](#diagrama-de-la-solución) 
+
 
 # Base de datos  ✍
 * ...
 * Los dataset que se analizaron van del...
-
-# Estructura del Proyecto
-## Parte A 📑
-* En esta parte se levantó un cluster en AWS con Hadoop y Pyspark 
-
-* Elaboramos un ETL con el Cluster donde: 
-* - Se subió a S3 el archivo o archivos.
-* - Se cargó el CSV en Spark.
-* - Se guardó el CSV como parquet en S3, y se particionó por `catalogo` y `año`.
-* - Se cargó el parquet en Spark.
-* - Y se hizó el análisis solicitado en las instrucciones [instrucciones-proyecto-parcial.md](instrucciones-proyecto-parcial.md).
- 
-## Parte B 📑
-Para esta parte se utilizó **Athena**. 
-
-* - Se creó una base de datos `profeco_db` en Athena.
-* - Así como una tabla externa `profeco` dentro de la base de datos profeco_db.
 
 ## Requerimientos de Software herramientas recomendadas
 
@@ -52,7 +52,11 @@ Para esta parte se utilizó **Athena**.
 2. [VSCodeIDE](https://code.visualstudio.com)
 3. [AWS](https://aws.amazon.com)
 
-
+### Cómo se utiliza la solución
+1. **Instalación**: Clona el repositorio y ejecuta `conda env create --file environments.yml` y después `conda activate SmartBakery`.
+2. **Configuración**: Configura las credenciales de acceso a la base de datos y las APIs necesarias.
+3. **Ejecución**: Ejecuta el script principal `smartbakery.py` para iniciar el proceso de optimización.
+ 
 - Correr los scripts en el siguiente orden:
   1. [0.WebScrapping.ipynb](0.WebScrapping.ipynb) 
   2. [bash/1.limpieza.sh](bash/1.limpieza.sh)
@@ -61,8 +65,25 @@ Para esta parte se utilizó **Athena**.
   5. [4.Parquet_basicos.ipynb](4.Parquet_basicos.ipynb)
   6. [5.Parte_B.ipynb](5.Parte_B.ipynb)
 
-# Entregables 💯
 
-
-
-
+### Qué tipo de analítica utilizaron
+- **Modelos de predicción**: Regresión lineal, árboles de decisión
+- **Analítica descriptiva**: Análisis de series temporales, visualización de datos históricos
+- **Simulaciones**: Análisis de escenarios para distintas estrategias de inventario
+ 
+### Inputs-Outputs
+- **Inputs**: Datos históricos de ventas, niveles de inventario, datos meteorológicos, eventos locales
+- **Outputs**: Predicciones de demanda, recomendaciones de inventario, alertas de stock
+ 
+### Cómo se utilizan los outputs
+Las predicciones y recomendaciones generadas por SmartBakery se utilizan para tomar decisiones informadas sobre el reabastecimiento y gestión de inventario, reduciendo costos y mejorando la disponibilidad de productos.
+ 
+### Costos estimados a un año
+El costo estimado para implementar y mantener SmartBakery durante un año incluye:
+- **Infraestructura en la nube**: $5,000 USD
+- **Licencias de software**: $2,000 USD
+- **Mantenimiento y soporte**: $3,000 USD
+- **Total**: $10,000 USD
+ 
+## Diagrama de la solución
+El siguiente diagrama muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. [Ver Diagrama en draw.io](link-al-diagrama)
