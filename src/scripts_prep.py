@@ -133,7 +133,8 @@ def preprocess_data(input_data, output_prep_data="data/prep/data_bakery_prep.csv
         df_raw = df_raw[~df_raw['Menu'].isin(['.'])].reset_index(drop=True)
         df_raw = df_raw[~df_raw['Price'].isin([0])].reset_index(drop=True)
         # Elimina valores negativos
-        df_raw = df_raw.loc[~((df_raw['Quantity'] <= 0) | (df_raw['Revenue'] <= 0))].reset_index(drop=True)
+        df_raw = df_raw.loc[~((df_raw['Quantity'] <= 0)
+                               | (df_raw['Revenue'] <= 0))].reset_index(drop=True)
         # Elimina outliers basado en EDA
         df_raw = df_raw.loc[~(df_raw['Revenue'] >= 100)].reset_index(drop=True)
         df_raw = df_raw.loc[~(df_raw['Quantity'] >= 100)].reset_index(drop=True)
