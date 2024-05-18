@@ -1,8 +1,13 @@
-"""
-Script de preprocesamiento de los datos 
-de ventas de una panadería que se utilizarán
-para entrenar un modelo de predicción.
-"""
+# prep.py
+'''
+En este módulo se hará el preprocesamiento de los datos
+para el modelo de forecasting para SmartBakery
+
+- Este script leerá el archivo de Bakery Sales de la carpeta "raw".
+- Y guardará en la carpeta de "prep" la base de datos que se ocupará
+  para el modelo.
+'''
+
 import os
 import logging
 from datetime import datetime
@@ -54,7 +59,9 @@ if __name__ == "__main__":
 
         # Se hace el primer preprocesamiento de los datos
         logging.info("Preprocesando los datos ...")
-        data = preprocess_data(args.input, output_prep_data=f"{args.output_prep}/data_bakery_prep.csv")
+        data = preprocess_data(
+            args.input, output_prep_data=f"{args.output_prep}"
+            "/data_bakery_prep.csv")
         if data is not None:
             logging.debug("Datos preprocesados con %d filas y %d columnas",
                           data.shape[0], data.shape[1])

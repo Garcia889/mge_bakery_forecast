@@ -5,3 +5,6 @@ clean_data/
 data/prep/
 data/raw/
 __pycache__/
+EDA/.ipynb_checkpoints/
+src/__pycache__/
+.DS_Store
