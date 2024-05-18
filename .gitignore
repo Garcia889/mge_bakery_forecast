@@ -4,3 +4,4 @@ raw_data/
 clean_data/
 data/prep/
 data/raw/
+__pycache__/
