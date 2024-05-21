@@ -81,10 +81,10 @@ Las predicciones y recomendaciones generadas por SmartBakery se utilizan para to
  
 ### Costos estimados a un año
 El costo estimado para implementar y mantener SmartBakery durante un año incluye:
-- **Infraestructura en la nube**: $5,000 USD
-- **Licencias de software**: $2,000 USD
-- **Mantenimiento y soporte**: $3,000 USD
-- **Total**: $10,000 USD
+- **Infraestructura en la nube**: $20,000 MXN
+- **Licencias de software**: $7,000 MXN
+- **Mantenimiento y soporte**: $11,000 MXN
+- **Total**: $38,000 MXN
  
 ## Diagrama de la solución
 El siguiente diagrama muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. [Ver Diagrama en draw.io](link-al-diagrama)
