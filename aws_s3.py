@@ -26,25 +26,25 @@ logging.basicConfig(
     filemode='w',  # Cambiado de 'a' a 'w' para sobrescribir los logs
     format='%(name)s - %(levelname)s - %(message)s')
 
+
+
 try:
     # Credenciales de AWS
-    VAR_KEY_ID = 'your_aws_access_key_id'
-    VAR_ACCESS_KEY = 'your_aws_secret_access_key'
+    VAR_KEY_ID = 'XXXXXXXXXXX'
+    VAR_ACCESS_KEY = 'XXXXXXXXX'
     logging.info("Credenciales de AWS cargadas correctamente")
 
     # Set the S3 bucket name and file name
-    BUCKET_NAME = 'bakery-project'
+    BUCKET_NAME = 'smartbakery'
     CSV_FILE_NAME = './data/prep/data_bakery_prep.csv'
-    PARQUET_FILE_NAME = './clean_data/clean_bakery_sales.parquet'
+    CSV_FILE_NAME_OUT = 'clean_data/clean_bakery_sales.csv'
+    CSV_TEMP = './data/raw/TempTot.csv'
+    CSV_TEMP_OUT = 'clean_data/TempTot.csv'
     logging.info("Nombre del bucket y archivo definidos correctamente")
 
     # Read the CSV file
     df = pd.read_csv(CSV_FILE_NAME)
     logging.info("Archivo CSV %s cargado correctamente", CSV_FILE_NAME)
-
-    # Convert the dataframe to Parquet format
-    df.to_parquet(PARQUET_FILE_NAME)
-    logging.info("Archivo Parquet %s creado correctamente", PARQUET_FILE_NAME)
 
     # Create an S3 client
     s3 = boto3.client('s3',
@@ -53,11 +53,18 @@ try:
     logging.info("Cliente S3 creado correctamente")
 
     # Upload the Parquet file to S3
-    s3.upload_file(PARQUET_FILE_NAME,
-                   BUCKET_NAME, 'clean_bakery_sales.parquet')
+    s3.upload_file(CSV_FILE_NAME,
+                   BUCKET_NAME, CSV_FILE_NAME_OUT)
     logging.info(
         "Archivo Parquet %s subido correctamente a S3 en %s",
-        PARQUET_FILE_NAME, BUCKET_NAME)
+        CSV_FILE_NAME_OUT, BUCKET_NAME)
+    
+    # Upload the Parquet file to S3
+    s3.upload_file(CSV_TEMP,
+                   BUCKET_NAME, CSV_TEMP_OUT)
+    logging.info(
+        "Archivo Parquet %s subido correctamente a S3 en %s",
+        CSV_TEMP_OUT, BUCKET_NAME)
 
 except FileNotFoundError as e:
     logging.error("Archivo no encontrado: %s", e)
