@@ -30,21 +30,22 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 
 ## Contenido
 
-- [Working Backwards en PDF](working_backwards/SmartBakery_WorkingBackwards.pdf) El documento de working backwards detalla el proceso y la oferta de valor de SmartBakery. [Descargar PDF](working_backwards/SmartBakery_WorkingBackwards.pdf)
+- [Working Backwards en PDF](working_backwards) Los 3 documentos que conforman el working backwards, donde se detalla el proceso y la oferta de valor de SmartBakery, se encuestran en esta sección.
 
-- [Press Release](#press-release) Aquí puedes leer el comunicado de prensa que describe la propuesta de valor y los beneficios de SmartBakery. [Leer Press Release](link-al-documento)
+- [Press Release](working_backwards/01_PressRelease_SmartBakery.pdf) Aquí puedes leer el comunicado de prensa que describe la propuesta de valor y los beneficios de SmartBakery. [Leer Press Release](working_backwards/01_PressRelease_SmartBakery.pdf)
 
-- [Cinco preguntas alrededor del cliente](#cinco-preguntas-alrededor-del-cliente) Respondemos a las cinco preguntas críticas para entender las necesidades y expectativas de nuestros clientes. [Leer Documento](link-al-documento)
+- [Cinco preguntas alrededor del cliente](working_backwards/02_5Quest_SmartBakery.pdf) Respondemos a las cinco preguntas críticas para entender las necesidades y expectativas de nuestros clientes. [Leer Documento](working_backwards/02_5Quest_SmartBakery.pdf)
+
 - [Boceto de la solución](#boceto-de-la-solución) El boceto muestra la solución final de SmartBakery, detallando las iteraciones realizadas para llegar al producto final. [Ver Boceto](link-al-boceto)
 
-- [FAQ](#faq) Respondemos las preguntas más frecuentes
+- [FAQ](working_backwards/03_FAQ_SmartBakery.pdf) Respondemos las preguntas más frecuentes de nuestros clientes.
 
 - [Diagrama de la solución](#diagrama-de-la-solución) 
 
 
 # Base de datos  ✍
-* ...
-* Los dataset que se analizaron van del...
+* El principal conjunto de datos utilizado en este análisis pertenece a una panadería francesa y proporciona los detalles de las transacciones diarias de los clientes desde el 1.ene.2021 hasta el 30.sep.2022. El conjunto de datos tiene más de 136 mil transacciones con 6 variables: fecha, hora de la orden, número de ticket, nombre del producto vendido, cantidad y precio unitario del producto. [Base de datos de Kaggle](https://www.kaggle.com/datasets/matthieugimbert/french-bakery-daily-sales?resource=download) 
+* Adicionalmente, incluimos datos del clima en Loire-Atlantique, Francia, donde se ubica la panadería. Contamos con datos diarios de 5 variables: temperatura, punto de rocío, lluvia, viento y presión a nivel del mar. Sin embargo, solo utlizamos los datos de temperatura en los días en los que contamos con transacciones para la panadería. [Base de datos de clima](https://www.wunderground.com/history/monthly/fr/bouguenais/LFRS/date/2022-12)
 
 ## Requerimientos de Software herramientas recomendadas
 
