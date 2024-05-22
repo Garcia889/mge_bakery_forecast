@@ -120,35 +120,37 @@ El paquete más contratado tiene un costo estimado para implementar y mantener S
 
 Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a las necesidades de tu panadería. ![Consultar inversión](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Costos_SmartBakery1.png) 
  
-## Estructura del repositorio  📂.
+## Estructura del repositorio  📂
+
+.
 ├── EDA
-│   └── EDA_Bakery.ipynb
+│ └── EDA_Bakery.ipynb
 ├── README.md
 ├── aws_s3.py
 ├── bakery_reg_endpoint.ipynb
 ├── data
-│   ├── prep
-│   └── raw
+│ ├── prep
+│ └── raw
 ├── data_prep_bakery.py
 ├── environment.yml
 ├── imgs
-│   ├── Costos_SmartBakery.png
-│   ├── Costos_SmartBakery1.png
-│   ├── SmartBakery.jpg
-│   ├── SmartBakery.png
-│   ├── boceto_SmartBakery.png
-│   └── logo.png
+│ ├── Costos_SmartBakery.png
+│ ├── Costos_SmartBakery1.png
+│ ├── SmartBakery.jpg
+│ ├── SmartBakery.png
+│ ├── boceto_SmartBakery.png
+│ └── logo.png
 ├── logs
-│   ├── 20240517_214746_prep.log
-│   └── 20240519_145437_s3.log
+│ ├── 20240517_214746_prep.log
+│ └── 20240519_145437_s3.log
 ├── prep.py
 ├── prep_train_data.py
 ├── src
-│   └── scripts_prep.py
+│ └── scripts_prep.py
 └── working_backwards
-    ├── 01_PressRelease_SmartBakery.docx
-    ├── 01_PressRelease_SmartBakery.pdf
-    ├── 02_5Quest_SmartBakery.docx
-    ├── 02_5Quest_SmartBakery.pdf
-    ├── 03_FAQ_SmartBakery.docx
-    └── 03_FAQ_SmartBakery.pdf
+├── 01_PressRelease_SmartBakery.docx
+├── 01_PressRelease_SmartBakery.pdf
+├── 02_5Quest_SmartBakery.docx
+├── 02_5Quest_SmartBakery.pdf
+├── 03_FAQ_SmartBakery.docx
+└── 03_FAQ_SmartBakery.pdf
