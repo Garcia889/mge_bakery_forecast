@@ -93,10 +93,8 @@ Los documentos que conforman el working backwards, donde se detalla el proceso y
   3. **Ejecución**:
     - Correr los scripts en el siguiente orden:
       1. [prep.py](prep.py) 
-      2. [aws_s3.py](aws_s3.py)
-    - En AWS S3 ejecutar:
-      3. [data_prep_bakery.py](data_prep_bakery.py)
-    - En AWS Sagemaker ejecutar:
+      2. [aws_s3.py](aws_s3.py) (AWS S3)
+      3. [data_prep_bakery.py](data_prep_bakery.py) (AWS Sagemaker)
       4. [bakery_reg_endpoint.ipynb](bakery_reg_endpoint.ipynb)
 
 
@@ -120,7 +118,11 @@ El paquete más contratado tiene un costo estimado para implementar y mantener S
 - **Total**: $99,000 MXN
 
 Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a las necesidades de tu panadería. ![Consultar inversión](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Costos_SmartBakery1.png) 
- 
+
+## DEMO
+https://us-east-1.quicksight.aws.amazon.com/sn/accounts/058264510014/dashboards/dec2155e-6ee5-4c3d-aa87-ac4e4651de09?directory_alias=yunperez
+
+
 ## Estructura del repositorio  📂
 ```
 .
