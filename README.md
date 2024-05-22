@@ -122,6 +122,8 @@ Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a 
 ## DEMO
 https://us-east-1.quicksight.aws.amazon.com/sn/accounts/058264510014/dashboards/dec2155e-6ee5-4c3d-aa87-ac4e4651de09?directory_alias=yunperez
 
+![](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Vista_Previa_SB.png)
+
 
 ## Estructura del repositorio  📂
 ```
@@ -158,5 +160,3 @@ https://us-east-1.quicksight.aws.amazon.com/sn/accounts/058264510014/dashboards/
 ├── 03_FAQ_SmartBakery.docx
 └── 03_FAQ_SmartBakery.pdf
 ```
-## Vista previa del producto
-![](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Vista_Previa_SB.png)
