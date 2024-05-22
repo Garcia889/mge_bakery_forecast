@@ -30,18 +30,18 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 
 ## Contenido
 
-- [Working Backwards en PDF](working_backwards) Los 3 documentos que conforman el working backwards, donde se detalla el proceso y la oferta de valor de SmartBakery, se encuestran en esta sección.
+* [Working Backwards en PDF](working_backwards) Los 3 documentos que conforman el working backwards, donde se detalla el proceso y la oferta de valor de SmartBakery, se encuestran en esta sección:
 
-- [Press Release](working_backwards/01_PressRelease_SmartBakery.pdf) Aquí puedes leer el comunicado de prensa que describe la propuesta de valor y los beneficios de SmartBakery. [Leer Press Release](working_backwards/01_PressRelease_SmartBakery.pdf)
+  - [Press Release](working_backwards/01_PressRelease_SmartBakery.pdf) Aquí puedes leer el comunicado de prensa que describe la propuesta de valor y los beneficios de SmartBakery. [Leer Press Release](working_backwards/01_PressRelease_SmartBakery.pdf)
 
-- [Cinco preguntas alrededor del cliente](working_backwards/02_5Quest_SmartBakery.pdf) Respondemos a las cinco preguntas críticas para entender las necesidades y expectativas de nuestros clientes. [Leer Documento](working_backwards/02_5Quest_SmartBakery.pdf)
+  - [Cinco preguntas alrededor del cliente](working_backwards/02_5Quest_SmartBakery.pdf) Respondemos a las cinco preguntas críticas para entender las necesidades y expectativas de nuestros clientes. [Leer Documento](working_backwards/02_5Quest_SmartBakery.pdf)
 
-- [Boceto de la solución](#boceto-de-la-solución) El boceto muestra la solución final de SmartBakery, detallando las iteraciones realizadas para llegar al producto final. [Ver Boceto](link-al-boceto)
+  - [Boceto de la solución](#boceto-de-la-solución) El boceto muestra la solución final de SmartBakery, detallando las    iteraciones realizadas para llegar al producto final. [Ver Boceto](link-al-boceto)
 
-- [FAQ](working_backwards/03_FAQ_SmartBakery.pdf) Respondemos las preguntas más frecuentes de nuestros clientes.
+  - [FAQ](working_backwards/03_FAQ_SmartBakery.pdf) Respondemos las preguntas más frecuentes de nuestros clientes.
 
-- [Diagrama de la solución](#diagrama-de-la-solución) 
-
+* [Diagrama de la solución](#diagrama-de-la-solución)
+    El siguiente diagrama muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. ![Ver Diagrama](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/SmartBakery.png)
 
 # Base de datos  ✍
 * El principal conjunto de datos utilizado en este análisis pertenece a una panadería francesa y proporciona los detalles de las transacciones diarias de los clientes desde el 1.ene.2021 hasta el 30.sep.2022. El conjunto de datos tiene más de 136 mil transacciones con 6 variables: fecha, hora de la orden, número de ticket, nombre del producto vendido, cantidad y precio unitario del producto. [Base de datos de Kaggle](https://www.kaggle.com/datasets/matthieugimbert/french-bakery-daily-sales?resource=download) 
@@ -79,16 +79,15 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
      source ~/.bashrc  # o el archivo correspondiente
      ```
 
-3. **Configuración**: Configura las credenciales de acceso a la base de datos y las APIs necesarias.
-4. **Ejecución**: Ejecuta el script principal `smartbakery.py` para iniciar el proceso de optimización.
- 
-- Correr los scripts en el siguiente orden:
-  1. [0.WebScrapping.ipynb](0.WebScrapping.ipynb) 
-  2. [bash/1.limpieza.sh](bash/1.limpieza.sh)
-  3. [bash/2.union.sh](bash/2.union.sh)
-  4. [3.Parte_A.ipynb](3.Parte_A.ipynb)
-  5. [4.Parquet_basicos.ipynb](4.Parquet_basicos.ipynb)
-  6. [5.Parte_B.ipynb](5.Parte_B.ipynb)
+  2. **Configuración**: Configura las credenciales de acceso a la base de datos y las APIs necesarias.
+  3. **Ejecución**:
+    - Correr los scripts en el siguiente orden:
+      1. [prep.py](prep.py) 
+      2. [aws_s3.py](aws_s3.py)
+    - En AWS S3 ejecutar:
+      3. [data_prep_bakery.py](data_prep_bakery.py)
+    - En AWS Sagemaker ejecutar:
+      4. [bakery_reg_endpoint.ipynb](bakery_reg_endpoint.ipynb)
 
 
 ### Qué tipo de analítica utilizaron
@@ -109,6 +108,3 @@ El costo estimado para implementar y mantener SmartBakery durante un año incluy
 - **Licencias de software**: $7,000 MXN
 - **Mantenimiento y soporte**: $11,000 MXN
 - **Total**: $38,000 MXN
- 
-## Diagrama de la solución
-El siguiente diagrama muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. ![Ver Diagrama](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/SmartBakery.png)
