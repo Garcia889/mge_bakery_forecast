@@ -55,8 +55,13 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 
 ### Cómo se utiliza la solución
 1. **Instalación**: Clona el repositorio y ejecuta `conda env create --file environments.yml` y después `conda activate SmartBakery`.
-2. **Configuración**: Configura las credenciales de acceso a la base de datos y las APIs necesarias.
-3. **Ejecución**: Ejecuta el script principal `smartbakery.py` para iniciar el proceso de optimización.
+<code>
+    <!-- Tu código aquí -->
+    console.log("Hola, mundo!");
+</code>
+
+3. **Configuración**: Configura las credenciales de acceso a la base de datos y las APIs necesarias.
+4. **Ejecución**: Ejecuta el script principal `smartbakery.py` para iniciar el proceso de optimización.
  
 - Correr los scripts en el siguiente orden:
   1. [0.WebScrapping.ipynb](0.WebScrapping.ipynb) 
