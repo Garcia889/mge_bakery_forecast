@@ -46,7 +46,7 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 
   - **FAQ**
     Respondemos las preguntas más frecuentes de nuestros clientes.
-    (working_backwards/03_FAQ_SmartBakery.pdf)
+    [Consultarlo](working_backwards/03_FAQ_SmartBakery.pdf)
 
 * **Arquitectura de la solución**
     El siguiente diagrama muestra las conexiones de las interacciones entre los servicios utilizados por la plataforma de SmartBakery.
@@ -155,3 +155,5 @@ Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a 
 ├── 03_FAQ_SmartBakery.docx
 └── 03_FAQ_SmartBakery.pdf
 ```
+## Vista previa del producto
+![](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Vista_Previa_SB.png)
