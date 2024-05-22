@@ -21,20 +21,20 @@
  
 En el competitivo mercado de la panadería, la gestión eficiente del inventario es crucial para maximizar las ganancias y garantizar la satisfacción del cliente. Muchas panaderías enfrentan desafíos significativos, como la predicción inexacta de la demanda, el desperdicio de productos y la falta de disponibilidad de artículos populares.
  
-**SmartBakery** nace como una solución innovadora para abordar estos problemas. Al integrar técnicas avanzadas de ciencia de datos, analítica de gran escala y cómputo distribuido, SmartBakery proporciona a las panaderías una herramienta poderosa para optimizar su inventario. Esta optimización se traduce en una reducción de desperdicios, una mejor satisfacción del cliente al asegurar la disponibilidad de productos y, en última instancia, un aumento en las ganancias.
+**SmartBakery** nace como una solución innovadora para abordar estos problemas. Al integrar técnicas avanzadas de ciencia de datos, analítica de gran escala y cómputo distribuido, **SmartBakery** proporciona a las panaderías una herramienta poderosa para optimizar su inventario. Esta optimización se traduce en una reducción de desperdicios, una mejor satisfacción del cliente al asegurar la disponibilidad de productos y, en última instancia, un aumento en las ganancias.
  
-SmartBakery no solo predice la demanda de productos, sino que también ofrece visualizaciones atractivas de las ventas reales en periodos de tiempo, inventario en tiempo real, precios y ganancias por cada producto y rankings de los productos más vendidos. Estas herramientas permiten identificar patrones estacionales, eventos locales y condiciones meteorológicas que afectan las trasacciones diarias. De esta manera, las panaderías pueden tomar decisiones informadas y estratégicas, mejorando su eficiencia operativa y fortaleciendo su posición en el mercado.
+**SmartBakery** no solo predice la demanda de productos, sino que también ofrece visualizaciones atractivas de las ventas reales en periodos de tiempo, inventario en tiempo real, precios y ganancias por cada producto y rankings de los productos más vendidos. Estas herramientas permiten identificar patrones estacionales, eventos locales y condiciones meteorológicas que afectan las trasacciones diarias. De esta manera, las panaderías pueden tomar decisiones informadas y estratégicas, mejorando su eficiencia operativa y fortaleciendo su posición en el mercado.
 
 ## Objetivo 🎯
-El objetivo de SmartBakery es construir un producto de datos que optimice el inventario de una panadería, mejorando así las ganancias y la satisfacción del cliente. Este producto sigue la metodología del working backwards para presentar una oferta de valor clara y utiliza los componentes del CRISP-DM y el Well Architected Machine Learning Lens.
+El objetivo de **SmartBakery** es construir un producto de datos que optimice el inventario de una panadería, mejorando así las ganancias y la satisfacción del cliente. Este producto sigue la metodología del working backwards para presentar una oferta de valor clara y utiliza los componentes del CRISP-DM y el Well Architected Machine Learning Lens.
 
 ## Contenido
 
 * [Working Backwards en PDF](01_working_backwards)
-Los documentos que conforman el working backwards, donde se detalla el proceso y la oferta de valor de SmartBakery, se encuestran en esta sección:
+Los documentos que conforman el working backwards, donde se detalla el proceso y la oferta de valor de **SmartBakery**, se encuestran en esta sección:
 
   - **Press Release**
-    Aquí puedes leer el comunicado de prensa que describe la propuesta de valor y los beneficios de SmartBakery.
+    Aquí puedes leer el comunicado de prensa que describe la propuesta de valor y los beneficios de **SmartBakery**.
     [Leer Press Release](01_working_backwards/01_PressRelease_SmartBakery.pdf)
 
   - **Cinco preguntas alrededor del cliente**
@@ -42,7 +42,7 @@ Los documentos que conforman el working backwards, donde se detalla el proceso y
     [Leer Documento](01_working_backwards/02_5Quest_SmartBakery.pdf)
 
   - **Boceto de la solución**
-    El boceto muestra la solución final de SmartBakery, detallando las iteraciones realizadas para llegar al producto final.
+    El boceto muestra la solución final de **SmartBakery**, detallando las iteraciones realizadas para llegar al producto final.
     [Ver Boceto](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png)
 
   - **FAQ**
@@ -50,7 +50,7 @@ Los documentos que conforman el working backwards, donde se detalla el proceso y
     [Consultarlo](01_working_backwards/03_FAQ_SmartBakery.pdf)
 
 * **Arquitectura de la solución**
-    El siguiente diagrama muestra las conexiones de las interacciones entre los servicios utilizados por la plataforma de SmartBakery.
+    El siguiente diagrama muestra las conexiones de las interacciones entre los servicios utilizados por la plataforma de **SmartBakery**.
     ![Ver Diagrama](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/SmartBakery.png)
 
 # Base de datos  ✍
@@ -108,10 +108,10 @@ Los documentos que conforman el working backwards, donde se detalla el proceso y
 - **Outputs**: Predicciones de demanda, recomendaciones de inventario, alertas de stock
  
 ### Cómo se utilizan los outputs
-Las predicciones y recomendaciones generadas por SmartBakery se utilizan para tomar decisiones informadas sobre el reabastecimiento y gestión de inventario, reduciendo costos y mejorando la disponibilidad de productos.
+Las predicciones y recomendaciones generadas por **SmartBakery** se utilizan para tomar decisiones informadas sobre el reabastecimiento y gestión de inventario, reduciendo costos y mejorando la disponibilidad de productos.
  
 ### Costos estimados a un año
-El paquete más contratado tiene un costo estimado para implementar y mantener SmartBakery durante un año de:
+El paquete más contratado tiene un costo estimado para implementar y mantener **SmartBakery** durante un año de:
 - **Infraestructura en la nube**: $50,000 MXN
 - **Licencias de software**: $14,000 MXN
 - **Mantenimiento y soporte**: $35,000 MXN
