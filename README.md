@@ -54,10 +54,30 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 3. [AWS](https://aws.amazon.com)
 
 ### Cómo se utiliza la solución
-1. **Instalación**: Clona el repositorio y ejecuta `conda env create --file environments.yml` y después `conda activate SmartBakery`.
-```bash
-nano ~/.zshrc
-```
+1. **Instalación**:
+   - Clona el repositorio
+     ```bash
+     git clone https://github.com/Garcia889/mge_bakery_forecast.git
+     ```
+   - Crea el ambiente
+     ```bash
+     conda env create --file environments.yml
+     conda activate SmartBakery
+     ```
+   - Agrega variables de ambiente de tu cuenta de AWS
+     ```bash
+     nano ~/.zshrc
+     ```
+
+     ```bash
+     export AWS_ACCESS_KEY_ID='YOUR_ACCESS_KEY_ID'
+     export AWS_SECRET_ACCESS_KEY='YOUR_SECRET_ACCESS_KEY'
+     export AWS_REGION='YOUR_AWS_REGION'
+     ```
+         
+     ```bash
+     source ~/.bashrc  # o el archivo correspondiente
+     ```
 
 3. **Configuración**: Configura las credenciales de acceso a la base de datos y las APIs necesarias.
 4. **Ejecución**: Ejecuta el script principal `smartbakery.py` para iniciar el proceso de optimización.
