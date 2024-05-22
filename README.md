@@ -21,9 +21,9 @@
  
 En el competitivo mercado de la panadería, la gestión eficiente del inventario es crucial para maximizar las ganancias y garantizar la satisfacción del cliente. Muchas panaderías enfrentan desafíos significativos, como la predicción inexacta de la demanda, el desperdicio de productos y la falta de disponibilidad de artículos populares.
  
-**SmartBakery** nace como una solución innovadora para abordar estos problemas. Al integrar técnicas avanzadas de ciencia de datos, analítica de Gran Escala y Computo Distribuido, SmartBakery proporciona a las panaderías una herramienta poderosa para optimizar su inventario. Esta optimización se traduce en una reducción de desperdicios, una mejor satisfacción del cliente al asegurar la disponibilidad de productos y, en última instancia, un aumento en las ganancias.
+**SmartBakery** nace como una solución innovadora para abordar estos problemas. Al integrar técnicas avanzadas de ciencia de datos, analítica de gran escala y cómputo distribuido, SmartBakery proporciona a las panaderías una herramienta poderosa para optimizar su inventario. Esta optimización se traduce en una reducción de desperdicios, una mejor satisfacción del cliente al asegurar la disponibilidad de productos y, en última instancia, un aumento en las ganancias.
  
-SmartBakery no solo predice la demanda de productos, sino que también ofrece recomendaciones precisas sobre cuándo y cuánto reabastecer, considerando factores como datos históricos de ventas, patrones estacionales, eventos locales y condiciones meteorológicas. Con esta herramienta, las panaderías pueden tomar decisiones informadas y estratégicas, mejorando su eficiencia operativa y fortaleciendo su posición en el mercado.
+SmartBakery no solo predice la demanda de productos, sino que también ofrece visualizaciones atractivas de las ventas reales en periodos de tiempo, inventario en tiempo real, precios y ganancias por cada producto y rankings de los productos más vendidos. Estas herramientas permiten identificar patrones estacionales, eventos locales y condiciones meteorológicas que afectan las trasacciones diarias. De esta manera, las panaderías pueden tomar decisiones informadas y estratégicas, mejorando su eficiencia operativa y fortaleciendo su posición en el mercado.
 
 ## Objetivo 🎯
 El objetivo de SmartBakery es construir un producto de datos que optimice el inventario de una panadería, mejorando así las ganancias y la satisfacción del cliente. Este producto sigue la metodología del working backwards para presentar una oferta de valor clara y utiliza los componentes del CRISP-DM y el Well Architected Machine Learning Lens.
@@ -36,7 +36,7 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 
 - [Cinco preguntas alrededor del cliente](working_backwards/02_5Quest_SmartBakery.pdf) Respondemos a las cinco preguntas críticas para entender las necesidades y expectativas de nuestros clientes. [Leer Documento](working_backwards/02_5Quest_SmartBakery.pdf)
 
-- [Boceto de la solución](#boceto-de-la-solución) El boceto muestra la solución final de SmartBakery, detallando las iteraciones realizadas para llegar al producto final. [Ver Boceto](link-al-boceto)
+- [Boceto de la solución](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png) El boceto muestra la solución final de SmartBakery, detallando las iteraciones realizadas para llegar al producto final. [Ver Boceto](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png)
 
 - [FAQ](working_backwards/03_FAQ_SmartBakery.pdf) Respondemos las preguntas más frecuentes de nuestros clientes.
 
@@ -93,7 +93,7 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 
 ### Qué tipo de analítica utilizaron
 - **Modelos de predicción**: Regresión lineal, árboles de decisión
-- **Analítica descriptiva**: Análisis de series temporales, visualización de datos históricos
+- **Analítica descriptiva**: Análisis de series de tiempo, visualización de datos históricos
 - **Simulaciones**: Análisis de escenarios para distintas estrategias de inventario
  
 ### Inputs-Outputs
@@ -104,11 +104,15 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 Las predicciones y recomendaciones generadas por SmartBakery se utilizan para tomar decisiones informadas sobre el reabastecimiento y gestión de inventario, reduciendo costos y mejorando la disponibilidad de productos.
  
 ### Costos estimados a un año
-El costo estimado para implementar y mantener SmartBakery durante un año incluye:
-- **Infraestructura en la nube**: $20,000 MXN
-- **Licencias de software**: $7,000 MXN
-- **Mantenimiento y soporte**: $11,000 MXN
-- **Total**: $38,000 MXN
+El paquete más contratado tiene un costo estimado para implementar y mantener SmartBakery durante un año de:
+- **Infraestructura en la nube**: $50,000 MXN
+- **Licencias de software**: $14,000 MXN
+- **Mantenimiento y soporte**: $35,000 MXN
+- **Total**: $99,000 MXN
+
+Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a las necesidades de tu panadería. ![Consultar inversión](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Costos_SmartBakery.png) 
  
 ## Diagrama de la solución
-El siguiente diagrama muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. ![Ver Diagrama](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/SmartBakery.png)
+El siguiente storyboard muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. ![Ver Diagrama](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png) 
+
+
