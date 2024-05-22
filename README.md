@@ -121,7 +121,7 @@ El paquete más contratado tiene un costo estimado para implementar y mantener S
 Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a las necesidades de tu panadería. ![Consultar inversión](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Costos_SmartBakery1.png) 
  
 ## Estructura del repositorio  📂
-
+```
 .
 ├── EDA
 │ └── EDA_Bakery.ipynb
@@ -154,3 +154,4 @@ Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a 
 ├── 02_5Quest_SmartBakery.pdf
 ├── 03_FAQ_SmartBakery.docx
 └── 03_FAQ_SmartBakery.pdf
+```
