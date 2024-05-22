@@ -36,7 +36,7 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 
 - [Cinco preguntas alrededor del cliente](working_backwards/02_5Quest_SmartBakery.pdf) Respondemos a las cinco preguntas críticas para entender las necesidades y expectativas de nuestros clientes. [Leer Documento](working_backwards/02_5Quest_SmartBakery.pdf)
 
-- [Boceto de la solución](#boceto-de-la-solución) El boceto muestra la solución final de SmartBakery, detallando las iteraciones realizadas para llegar al producto final. [Ver Boceto](link-al-boceto)
+- [Boceto de la solución](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png) El boceto muestra la solución final de SmartBakery, detallando las iteraciones realizadas para llegar al producto final. [Ver Boceto](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png)
 
 - [FAQ](working_backwards/03_FAQ_SmartBakery.pdf) Respondemos las preguntas más frecuentes de nuestros clientes.
 
@@ -104,11 +104,13 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 Las predicciones y recomendaciones generadas por SmartBakery se utilizan para tomar decisiones informadas sobre el reabastecimiento y gestión de inventario, reduciendo costos y mejorando la disponibilidad de productos.
  
 ### Costos estimados a un año
-El costo estimado para implementar y mantener SmartBakery durante un año incluye:
+El paquete más contratado tiene un costo estimado para implementar y mantener SmartBakery durante un año de:
 - **Infraestructura en la nube**: $50,000 MXN
 - **Licencias de software**: $14,000 MXN
 - **Mantenimiento y soporte**: $35,000 MXN
 - **Total**: $99,000 MXN
+
+Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a las necesidades de tu panadería. ![Consultar inversión](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Costos_SmartBakery.png) 
  
 ## Diagrama de la solución
 El siguiente storyboard muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. ![Ver Diagrama](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png) 
