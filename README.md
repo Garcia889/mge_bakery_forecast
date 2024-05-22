@@ -30,16 +30,16 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 
 ## Contenido
 
-* [Working Backwards en PDF](working_backwards)
+* [Working Backwards en PDF](01_working_backwards)
 Los documentos que conforman el working backwards, donde se detalla el proceso y la oferta de valor de SmartBakery, se encuestran en esta sección:
 
   - **Press Release**
     Aquí puedes leer el comunicado de prensa que describe la propuesta de valor y los beneficios de SmartBakery.
-    [Leer Press Release](working_backwards/01_PressRelease_SmartBakery.pdf)
+    [Leer Press Release](01_working_backwards/01_PressRelease_SmartBakery.pdf)
 
   - **Cinco preguntas alrededor del cliente**
     Respondemos a las cinco preguntas críticas para entender las necesidades y expectativas de nuestros clientes.
-    [Leer Documento](working_backwards/02_5Quest_SmartBakery.pdf)
+    [Leer Documento](01_working_backwards/02_5Quest_SmartBakery.pdf)
 
   - **Boceto de la solución**
     El boceto muestra la solución final de SmartBakery, detallando las iteraciones realizadas para llegar al producto final.
@@ -47,7 +47,7 @@ Los documentos que conforman el working backwards, donde se detalla el proceso y
 
   - **FAQ**
     Respondemos las preguntas más frecuentes de nuestros clientes.
-    [Consultarlo](working_backwards/03_FAQ_SmartBakery.pdf)
+    [Consultarlo](01_working_backwards/03_FAQ_SmartBakery.pdf)
 
 * **Arquitectura de la solución**
     El siguiente diagrama muestra las conexiones de las interacciones entre los servicios utilizados por la plataforma de SmartBakery.
