@@ -40,7 +40,7 @@ El objetivo de SmartBakery es construir un producto de datos que optimice el inv
 
 - [FAQ](working_backwards/03_FAQ_SmartBakery.pdf) Respondemos las preguntas más frecuentes de nuestros clientes.
 
-- [Diagrama de la solución](#diagrama-de-la-solución) 
+- [Diagrama de la solución](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/SmartBakery.png) El siguiente diagrama muestra las conexiones de las interacciones entre los servicios utilizados por la plataforma de SmartBakery.
 
 
 # Base de datos  ✍
@@ -113,6 +113,6 @@ El paquete más contratado tiene un costo estimado para implementar y mantener S
 Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a las necesidades de tu panadería. ![Consultar inversión](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Costos_SmartBakery.png) 
  
 ## Diagrama de la solución
-El siguiente storyboard muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. ![Ver Diagrama](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png) 
+El siguiente storyboard muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. ![Ver Storyboard](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png) 
 
 
