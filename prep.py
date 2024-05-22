@@ -12,6 +12,7 @@ import os
 import logging
 from datetime import datetime
 import argparse
+from sklearn.model_selection import train_test_split
 from src.scripts_prep import load_data, preprocess_data
 
 if not os.path.exists("logs/"):
