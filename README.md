@@ -111,4 +111,6 @@ El costo estimado para implementar y mantener SmartBakery durante un año incluy
 - **Total**: $99,000 MXN
  
 ## Diagrama de la solución
-El siguiente diagrama muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. ![Ver Diagrama](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/SmartBakery.png)
+El siguiente storyboard muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. ![Ver Diagrama](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png) 
+
+
