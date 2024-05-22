@@ -110,7 +110,7 @@ El paquete más contratado tiene un costo estimado para implementar y mantener S
 - **Mantenimiento y soporte**: $35,000 MXN
 - **Total**: $99,000 MXN
 
-Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a las necesidades de tu panadería. ![Consultar inversión](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Costos_SmartBakery.png) 
+Contamos con 4 paquetes de contratación mensual o anual que pueden adaptarse a las necesidades de tu panadería. ![Consultar inversión](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/Costos_SmartBakery1.png) 
  
 ## Diagrama de la solución
 El siguiente storyboard muestra cada uno de los componentes de SmartBakery y cómo están interrelacionados. ![Ver Storyboard](https://github.com/Garcia889/mge_bakery_forecast/blob/main/imgs/boceto_SmartBakery.png) 
